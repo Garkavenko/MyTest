@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -307,7 +307,8 @@
           "displayName": "plasmic-antd5-collapse-item",
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCollapse"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "56i38yEGPn8fnfwshSAHgK",
@@ -328,9 +329,47 @@
           "cssFilePath": "plasmic/my_app/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "ljdtCCliJOy1",
+          "name": "MyComponent",
+          "type": "managed",
+          "projectId": "56i38yEGPn8fnfwshSAHgK",
+          "renderModuleFilePath": "plasmic/my_app/PlasmicMyComponent.tsx",
+          "importSpec": {
+            "modulePath": "MyComponent.tsx"
+          },
+          "cssFilePath": "plasmic/my_app/PlasmicMyComponent.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "AlpsZ6uZsjNm",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "56i38yEGPn8fnfwshSAHgK",
+          "renderModuleFilePath": "plasmic/my_app/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/my_app/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
         }
       ],
-      "icons": [],
+      "icons": [
+        {
+          "id": "H3dAzti0RHQu",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/my_app/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "JxK5nMH193l3",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/my_app/icons/PlasmicIcon__Checksvg.tsx"
+        }
+      ],
       "images": [],
       "indirect": false,
       "globalContextsFilePath": "plasmic/my_app/PlasmicGlobalContextsProvider.tsx",
